@@ -58,5 +58,6 @@ NOTE FOR MYSELF: include plots here for the three graphs.
 1. Charagundla, S. R., Borthakur, A., Leigh, J. S., & Reddy, R. (2003). Artifacts in T1ρ-weighted imaging: correction with a self-compensating spin-locking pulse. Journal of Magnetic Resonance, 162(1), 113-121.
 2. Borthakur, A., Hulvershorn, J., Gualtieri, E., Wheaton, A. J., Charagundla, S., Elliott, M. A., & Reddy, R. (2006). A pulse sequence for rapid in vivo spin‐locked MRI. Journal of Magnetic Resonance Imaging: An Official Journal of the International Society for Magnetic Resonance in Medicine, 23(4), 591-596.
 3. Witzel, T., Lin, F. H., Rosen, B. R., & Wald, L. L. (2008). Stimulus-induced Rotary Saturation (SIRS): a potential method for the detection of neuronal currents with MRI. Neuroimage, 42(4), 1357-1365.
+4. Brown, R. W., Cheng, Y. C. N., Haacke, E. M., Thompson, M. R., & Venkatesan, R. (2014). Magnetic resonance imaging: physical principles and sequence design. John Wiley & Sons.
 
 
