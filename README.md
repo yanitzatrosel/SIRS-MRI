@@ -46,6 +46,10 @@ where $`\vec{M}_{\perp} = M_x\hat{x} + M_y\hat{y} `$. Assuming $\vec{B}_{ext}=B_
 
 $` \frac{d\vec{M}}{dt} = \omega_0 M_y \hat{x} - \omega_0 M_x \hat{x} + \frac{1}{T_1}(M_0 - M_z)\hat{z} - \frac{1}{T_2} (M_x\hat{x} + M_y\hat{y}) `$, 
 
-where $\omega_0 = \gamma B_0$
+where $\omega_0 = \gamma B_0$. Rewritting the differential equations for each component, and changing variable to $M_x = m_x e^{-t/T_2}$ and $M_y = m_y e^{-t/T_2}$, the solution for Block equations in a static field orientated in z direction are:
+
+1. $` M_x(t) = e^{-t/T_2} [M_x(0)\cos(\omega_0 t) + M_y(0)\sin(\omega_0 t)] `$
+1. $` M_y(t) = e^{-t/T_2} [M_y(0)\cos(\omega_0 t) - M_x(0)\sin(\omega_0 t)] `$
+1. $` M_z(t) = M_z(0) e^{-t/T_1} + M_0 (1 - e^{-t/T_1}) `$
 
 
