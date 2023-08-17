@@ -2,9 +2,11 @@
 
 ## Background theory
 
-Stimulus-Induced Rotary Saturation (SIRS) is a potential method to directly measure neuronal current.
+Stimulus-Induced Rotary Saturation (SIRS) is a potential method to directly measure neuronal current using Bruker MRI (Note: report power of magnet)
 
 ## Pulse program
+
+The in
 
 Notes:
 
@@ -17,6 +19,22 @@ y = 1 = $90^\circ$
 
 -y = 3 = $270^\circ$ 
 
-The pulse sequence of SIRS starts a relaxation delay d1 to let the magnetization reach equillibrium in z-direction. Then a hard  pulse (p1) is applied $\pi/2$ in x direction. Followed by a phase-shifted spin-lock (SL) with amplitude $B_{s1}$. TSL corresponds to the duration time for the SL pulse. TSL depends on the T2 value for the tissue of interest (NOTE for myself: check value for brain tissue).
+Figure 1 shows a pulse sequence for the Spin-Lock block in the pulse sequence for the spin-lattice relaxation time in the rotation frame $T_{1\rho}$. Figure 2 shows the representation of the magnetization vector when the pulse program is applied. 
 
-![SIRS-PulseSequence](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/834bd302-5414-4404-b746-419a77397428)
+1. The sample is allowed to come to an equillibium with a delay (d1: 1-5*T1).
+1. A $90^\circ$ hard pulse is applied in x direction, which will nutate the resulting magnetization in -y (xy-plane) (note: Charagundla's paper position the magnetization in y direction, but I think this is an error).
+1. A phase-shifted spin-lock pulse is applied in -y direction (Note: need to verify this part). TSL corresponds to the duration time for the SL pulse. TSL depends on the T2 value for the tissue of interest (NOTE for myself: check value for brain tissue).
+1. A second $90^\circ$ hard pulse is applied in -x direction, which nutate the magnetization in a complex position.
+
+
+
+![SIRS-PulseSequence](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/46910822-e9e2-44ca-9707-4f773706ab3e)
+**Figure 1. Initial block pulse sequence for Spin-Lock**. The experiment is composed of an initial $90^\circ$ hard pulse, followed by a phase-shifted spin-lock pulse, and then a second $90^\circ$ hard pulse.
+
+
+![MagnetizationVector](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/d8964344-f8da-4f78-885f-75c7f13acf05)
+**Figure 2. Representation of the magnetization vector for the Spin-Lock sequence**.
+
+
+
+
