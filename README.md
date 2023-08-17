@@ -44,8 +44,8 @@ $`\frac{d\vec{M}}{dt} = \gamma \vec{M} \times \vec{B}_{ext} + \frac{1}{T_1}(M_0 
 
 where $`\vec{M}_{\perp} = M_x\hat{x} + M_y\hat{y} `$. Assuming $\vec{B}_{ext}=B_0\hat{z}$ then Block equation can be rewritten as,
 
-$` \frac{d\vec{M}}{dt} = \omega_0 M_y \hat{x} - \omega_0 M_x \hat{x} + \frac{1}{T_1}(M_0 - M_z)\hat{z} - \frac{1}{T_2} (M_x\hat{x} + M_y\hat{y}) `$
+$` \frac{d\vec{M}}{dt} = \omega_0 M_y \hat{x} - \omega_0 M_x \hat{x} + \frac{1}{T_1}(M_0 - M_z)\hat{z} - \frac{1}{T_2} (M_x\hat{x} + M_y\hat{y}) `$, 
 
-
+where $\omega_0 = \gamma B_0$
 
 
