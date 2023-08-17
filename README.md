@@ -36,9 +36,11 @@ Figure 1 shows a pulse sequence for the Spin-Lock block in the pulse sequence fo
 **Figure 2. Representation of the magnetization vector for the Spin-Lock sequence**.
 
 
-** Magentization vector equations for SIRS
+## Magentization vector equations for SIRS
 
-First, I will write the magnetization equation for the case when $\vec{B}_{ext}=B_0\hat{z}$
+First, let's write the magnetization equation for the case when $\vec{B}_{ext}=B_0\hat{z}$, which is in a static field. Block equation:
+
+$$ \frac{d\vec{M}}{dt} = \gamma \vec{M}_x \times \vec{B}_{ext} + \frac{1}{T_1}(M_0 - M_z)\hat{z} - \frac{1}{T_2} \vec{M}_{\perp} $$
 
 
 
