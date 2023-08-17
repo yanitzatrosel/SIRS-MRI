@@ -6,18 +6,12 @@ Stimulus-Induced Rotary Saturation (SIRS) is a potential method to directly meas
 
 ## Pulse program
 
-The in
-
 Notes:
 
-
-x = 0 = $0^\circ$ 
-
-y = 1 = $90^\circ$ 
-
--x = 2 = $180^\circ$ 
-
--y = 3 = $270^\circ$ 
+* x = 0 = $0^\circ$
+* y = 1 = $90^\circ$ 
+* -x = 2 = $180^\circ$ 
+* -y = 3 = $270^\circ$ 
 
 Figure 1 shows a pulse sequence for the Spin-Lock block in the pulse sequence for the spin-lattice relaxation time in the rotation frame $T_{1\rho}$. Figure 2 shows the representation of the magnetization vector when the pulse program is applied. 
 
@@ -29,7 +23,7 @@ Figure 1 shows a pulse sequence for the Spin-Lock block in the pulse sequence fo
 
 
 ![SIRS-PulseSequence](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/779964a2-537a-4c48-a324-98ed9130a481)
-**Figure 1. Initial block pulse sequence for Spin-Lock**. The experiment is composed of an initial $90^\circ$ hard pulse, followed by a phase-shifted spin-lock pulse, and then a second $90^\circ$ hard pulse.
+**Figure 1. Initial block pulse sequence for Spin-Lock**. The experiment is composed of an initial $90^\circ$ hard pulse, followed by a phase-shifted spin-lock pulse, and then a second $90^\circ$ hard pulse. Note: I think the SL should be applied in -y direction.
 
 
 ![MagnetizationVector](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/649cc293-d46f-4fe1-8719-77a4c960fbd9)
@@ -51,5 +45,18 @@ where $\omega_0 = \gamma B_0$. Rewritting the differential equations for each co
 1. $` M_x(t) = e^{-t/T_2} [M_x(0)\cos(\omega_0 t) + M_y(0)\sin(\omega_0 t)] `$
 1. $` M_y(t) = e^{-t/T_2} [M_y(0)\cos(\omega_0 t) - M_x(0)\sin(\omega_0 t)] `$
 1. $` M_z(t) = M_z(0) e^{-t/T_1} + M_0 (1 - e^{-t/T_1}) `$
+
+NOTE FOR MYSELF: include plots here for the three graphs. 
+
+## Magentization vector equations for SIRS
+
+
+
+
+## References
+
+1. Charagundla, S. R., Borthakur, A., Leigh, J. S., & Reddy, R. (2003). Artifacts in T1ρ-weighted imaging: correction with a self-compensating spin-locking pulse. Journal of Magnetic Resonance, 162(1), 113-121.
+2. Borthakur, A., Hulvershorn, J., Gualtieri, E., Wheaton, A. J., Charagundla, S., Elliott, M. A., & Reddy, R. (2006). A pulse sequence for rapid in vivo spin‐locked MRI. Journal of Magnetic Resonance Imaging: An Official Journal of the International Society for Magnetic Resonance in Medicine, 23(4), 591-596.
+3. Witzel, T., Lin, F. H., Rosen, B. R., & Wald, L. L. (2008). Stimulus-induced Rotary Saturation (SIRS): a potential method for the detection of neuronal currents with MRI. Neuroimage, 42(4), 1357-1365.
 
 
