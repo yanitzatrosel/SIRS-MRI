@@ -28,11 +28,11 @@ Figure 1 shows a pulse sequence for the Spin-Lock block in the pulse sequence fo
 
 
 
-![SIRS-PulseSequence](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/46910822-e9e2-44ca-9707-4f773706ab3e)
+![SIRS-PulseSequence](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/779964a2-537a-4c48-a324-98ed9130a481)
 **Figure 1. Initial block pulse sequence for Spin-Lock**. The experiment is composed of an initial $90^\circ$ hard pulse, followed by a phase-shifted spin-lock pulse, and then a second $90^\circ$ hard pulse.
 
 
-![MagnetizationVector](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/d8964344-f8da-4f78-885f-75c7f13acf05)
+![MagnetizationVector](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/649cc293-d46f-4fe1-8719-77a4c960fbd9)
 **Figure 2. Representation of the magnetization vector for the Spin-Lock sequence**.
 
 
