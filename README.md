@@ -46,7 +46,13 @@ where $\omega_0 = \gamma B_0$. Rewritting the differential equations for each co
 1. $` M_y(t) = e^{-t/T_2} [M_y(0)\cos(\omega_0 t) - M_x(0)\sin(\omega_0 t)] `$
 1. $` M_z(t) = M_z(0) e^{-t/T_1} + M_0 (1 - e^{-t/T_1}) `$
 
-NOTE FOR MYSELF: include plots here for the three graphs. 
+At the equilibrium limit $M_x(\infty) = M_y(\infty) = 0$ and $M_z(\infty) = M_0$. 
+
+Note: $T_1$ is the longitudinal relaxation also known as the spin-lattice relaxation time. $T_2$ iis the transversal relaxation or spin-spin relaxation time. Some known values for $T_1$ and $T_2$ measured at $37^\circ$ and in 1.5 $T$. 
+
+Gray Matter: $T_1 = 950 ms$ and $T_2 = 100 ms$
+
+White matter: $T_1 = 600 ms$ and $T_2 = 80 ms$
 
 ## Magentization vector equations for SIRS
 
