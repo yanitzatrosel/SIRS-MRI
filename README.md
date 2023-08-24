@@ -56,7 +56,17 @@ White matter: $T_1 = 600 ms$ and $T_2 = 80 ms$
 
 ## Magentization vector equations for SIRS
 
+The normalized intial magnetization under thermal equilibrium is $M_x=0$, $M_y=0$, and $M_z=1$, as shown in previous section. 
 
+As the SL pulse is applied, the magnetization will end in a complex orientation, such as 
+
+1. $` M_x=0 `$
+2. $` M_y=0 `$
+3. $` M_z=\sin^2(\theta) \exp(-TSL/T_{1\rho}) + \cos^2(\theta) \cos(\alpha) \exp(-TSL/T_{2\rho}) `$
+
+Where $\theta = \gamma B_1 \tau$ and $\alpha = \omega_{1y} TSL = P\gamma B_1 TSL$. $B_1$ is the maximun rf amplitude, $\tau$ is the duration of the $90^\circ$ pulse, and P is the fraction parameter of the maximun rf amplitude $B_1$. Calculation can be found in Charagundla and coworkers' paper [1]. 
+
+Some 
 
 
 ## References
