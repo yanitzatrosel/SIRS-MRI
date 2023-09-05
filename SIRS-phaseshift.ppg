@@ -1,7 +1,9 @@
-;Stimulus-Induced Rotary Saturation (SIRS)
+;Stimulus-Induced Rotary Saturation (SIRS) PLUS EPI
 ; Note: add some references
 
 #include <Avance.incl>
+
+#include <MRI.include>
 
 
 
