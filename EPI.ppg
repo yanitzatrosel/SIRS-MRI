@@ -29,3 +29,16 @@ define delay durEpi = {$PVM_EpiModuleTime}
 ; counter of dummy scans (not acquired; DS set to 0)
 define loopcounter lcDs
 "lcDs = l0"
+
+
+#include<epiHead.mod>
+#include<PrepModulesHead.mod>
+
+INIT_DEVICES
+
+#define r3d ACQ_spatial_phase_2
+; GRAPPA adjustment?
+if (PVM_EpiAdjustMode==2)
+{
+define list <grad_scalar> r3d
+}
