@@ -1,1 +1,31 @@
+;********************************************
+;
+; Copyright (c) 2001 - 2003
+; Bruker BioSpin MRI GmbH
+; D- 76275 Ettlingen, Germany
+;
+; All Rights Reserved
+;
+; EPI -  echo planar imaging method
+;
+;********************************************
+;
+; d0 - TR padding
+; d1 - refocusing
+; d2 - TE padding
+; d3 = PVM_RampTime + PVM_InterGradientWaitTime
+; d4 = PVM_RiseTime
+; d5 = spoiler
+; d7 - TE paddng (spin echo)
+; d8 = SCON / BLKTR_MAN (Amplifier preblanking)
 
+#include<MRI.include>
+
+preset off
+
+define delay durEpi = {$PVM_EpiModuleTime}
+"durEpi = durEpi/1000"
+
+; counter of dummy scans (not acquired; DS set to 0)
+define loopcounter lcDs
+"lcDs = l0"
