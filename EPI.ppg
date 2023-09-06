@@ -111,9 +111,25 @@ goOn,   10u
         2.5u ipp0
         lo to start times NA
 ;--------------------------2d loop--------------------------------
+        2.5u rpp0 Interleaving.inc
 
+        lo to start times PVM_EpiNShots
+        0u Interleaving.res
+;-------------------------3d loop--------------------------------
+if( ACQ_dim >= 3 )
+{
+        r3d.inc
+        lo to start times ACQ_size[2]
+}
+;-------------------------repetitions loop-----------------------
+        lo to start times NR
 
+SETUP_GOTO(start)
 
+exit
+
+ph0 = 0 2
+ph1 = 0
 
 
 
