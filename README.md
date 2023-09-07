@@ -17,7 +17,7 @@ Figure 1 shows a pulse sequence for the Spin-Lock block in the pulse sequence fo
 
 1. The sample is allowed to come to an equillibium with a delay (d1: 1-5*T1).
 1. A $90^\circ$ hard pulse is applied in x direction, which will nutate the resulting magnetization in -y (xy-plane) (note: Charagundla's paper position the magnetization in y direction, but I think this is an error).
-1. A phase-shifted spin-lock pulse is applied in -y direction (Note: need to verify this part). TSL corresponds to the duration time for the SL pulse. TSL depends on the T2 value for the tissue of interest (NOTE for myself: check value for brain tissue).
+1. A phase-shifted spin-lock pulse is applied in -y direction (Note: need to verify this part). TSL corresponds to the duration time for the SL pulse. TSL depends on the T2 value for the tissue of interest.
 1. A second $90^\circ$ hard pulse is applied in -x direction, which nutate the magnetization in a complex position.
 
 
@@ -27,6 +27,8 @@ Figure 1 shows a pulse sequence for the Spin-Lock block in the pulse sequence fo
 
 ![MagnetizationVector](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/649cc293-d46f-4fe1-8719-77a4c960fbd9)
 **Figure 2. Representation of the magnetization vector for the Spin-Lock sequence**.
+
+Note for myself: Charagundla and coworkers suggested a phase-shifted SL pulse, with the purpose of removing artifacts. However, I will start with the basic pulse program and then increase complexity. 
 
 ## TSL values
 
@@ -74,6 +76,14 @@ As the SL pulse is applied, the magnetization will end in a complex orientation,
 Where $\theta = \gamma B_1 \tau$ and $\alpha = \omega_{1y} TSL = P\gamma B_1 TSL$. $B_1$ is the maximun rf amplitude, $\tau$ is the duration of the $90^\circ$ pulse, and P is the fraction parameter of the maximun rf amplitude $B_1$. Calculation can be found in Charagundla and coworkers' paper [1]. 
 
 ## Magnetization vector for steasy-state sequence
+
+We start with the Block equation:
+
+$`\frac{d\vec{M}}{dt} = \gamma \vec{M} \times \vec{B}_{ext} + \frac{1}{T_1}(M_0 - M_z)\hat{z} - \frac{1}{T_2} \vec{M}_{\perp}`$
+
+and we want to solve for $\vec{V}_{ext} = B_0 \hat{z} + B_1 \hat{x}'$
+
+## How EPI works
 
 ## References
 
