@@ -21,8 +21,7 @@ Figure 1 shows a pulse sequence for the Spin-Lock block in the pulse sequence fo
 1. A second $90^\circ$ hard pulse is applied in -x direction, which nutate the magnetization in a complex position.
 
 
-
-![SIRS-PulseSequence](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/779964a2-537a-4c48-a324-98ed9130a481)
+![SIRS-PulseSequence](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/ab3124a7-fe83-427c-8636-1f99ccc9256b)
 **Figure 1. Initial block pulse sequence for Spin-Lock**. The experiment is composed of an initial $90^\circ$ hard pulse, followed by a phase-shifted spin-lock pulse, and then a second $90^\circ$ hard pulse. Note: I think the SL should be applied in -y direction.
 
 
@@ -74,8 +73,7 @@ As the SL pulse is applied, the magnetization will end in a complex orientation,
 
 Where $\theta = \gamma B_1 \tau$ and $\alpha = \omega_{1y} TSL = P\gamma B_1 TSL$. $B_1$ is the maximun rf amplitude, $\tau$ is the duration of the $90^\circ$ pulse, and P is the fraction parameter of the maximun rf amplitude $B_1$. Calculation can be found in Charagundla and coworkers' paper [1]. 
 
-Some 
-
+## Magnetization vector for the spin-lock sequence
 
 ## References
 
