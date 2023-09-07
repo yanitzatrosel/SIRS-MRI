@@ -29,6 +29,14 @@ Figure 1 shows a pulse sequence for the Spin-Lock block in the pulse sequence fo
 ![MagnetizationVector](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/649cc293-d46f-4fe1-8719-77a4c960fbd9)
 **Figure 2. Representation of the magnetization vector for the Spin-Lock sequence**.
 
+## TSL values
+
+Test with the values: 50 to 400 ms.
+
+## $B_{SL}$
+
+Try values between 10-100 Hz.
+
 
 ## Magentization vector equations for $\vec{B}_{ext}=B_0\hat{z}$
 
