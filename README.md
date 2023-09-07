@@ -73,7 +73,7 @@ As the SL pulse is applied, the magnetization will end in a complex orientation,
 
 Where $\theta = \gamma B_1 \tau$ and $\alpha = \omega_{1y} TSL = P\gamma B_1 TSL$. $B_1$ is the maximun rf amplitude, $\tau$ is the duration of the $90^\circ$ pulse, and P is the fraction parameter of the maximun rf amplitude $B_1$. Calculation can be found in Charagundla and coworkers' paper [1]. 
 
-## Magnetization vector for the spin-lock sequence
+## Magnetization vector for steasy-state sequence
 
 ## References
 
