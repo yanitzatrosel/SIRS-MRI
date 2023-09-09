@@ -2,7 +2,7 @@
 
 ## Background theory
 
-Stimulus-Induced Rotary Saturation (SIRS) is a potential method to directly measure neuronal current using Bruker MRI (Note: report power of magnet)
+Stimulus-Induced Rotary Saturation (SIRS) is a potential method to directly measure neuronal current using  7T Bruker MRI.
 
 ## Pulse program
 
@@ -75,7 +75,7 @@ As the SL pulse is applied, the magnetization will end in a complex orientation,
 
 Where $\theta = \gamma B_1 \tau$ and $\alpha = \omega_{1y} TSL = P\gamma B_1 TSL$. $B_1$ is the maximun rf amplitude, $\tau$ is the duration of the $90^\circ$ pulse, and P is the fraction parameter of the maximun rf amplitude $B_1$. Calculation can be found in Charagundla and coworkers' paper [1]. 
 
-## Magnetization vector for steasy-state sequence
+## Magnetization vector for steady-state sequence
 
 We start with the Block equation:
 
