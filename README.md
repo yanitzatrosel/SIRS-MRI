@@ -73,7 +73,14 @@ As the SL pulse is applied, the magnetization will end in a complex orientation,
 2. $` M_y=0 `$
 3. $` M_z=\sin^2(\theta) \exp(-TSL/T_{1\rho}) + \cos^2(\theta) \cos(\alpha) \exp(-TSL/T_{2\rho}) `$
 
-Where $\theta = \gamma B_1 \tau$ and $\alpha = \omega_{1y} TSL = P\gamma B_1 TSL$. $B_1$ is the maximun rf amplitude, $\tau$ is the duration of the $90^\circ$ pulse, and P is the fraction parameter of the maximun rf amplitude $B_1$. Calculation can be found in Charagundla and coworkers' paper [1]. 
+Where $\theta = \gamma B_1 \tau$ and $\alpha = \omega_{1y} TSL = P\gamma B_1 TSL$. $B_1$ is the maximun rf amplitude, $\tau$ is the duration of the $90^\circ$ pulse, and P is the fraction parameter of the maximun rf amplitude $B_1$. Calculation can be found in Charagundla and coworkers' paper [1]. If $\theta$ is calibrated to be a $\pi/2$ pulse, the longitudinal magnetization is
+
+$` M_z = exp(-TSL/T_{1\rho}) `$
+
+However, this last expression is hardly true since it would requiere an homogeneous $B_1$ throughout the whole sample.
+
+![CharagundlaMagPLOT](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/bb4a3001-5786-452f-b557-8c664f2796df)
+
 
 ## Magnetization vector for steady-state sequence
 
