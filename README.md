@@ -63,7 +63,7 @@ Gray Matter: $T_1 = 950 ms$ and $T_2 = 100 ms$
 
 White matter: $T_1 = 600 ms$ and $T_2 = 80 ms$
 
-## Magentization vector equations for SIRS
+## Magnetization vector equations for SIRS
 
 The normalized intial magnetization under thermal equilibrium is $M_x=0$, $M_y=0$, and $M_z=1$, as shown in previous section. 
 
