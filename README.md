@@ -79,8 +79,8 @@ $` M_z = exp(-TSL/T_{1\rho}) `$
 
 However, this last expression is hardly true since it would requiere an homogeneous $B_1$ throughout the whole sample.
 
-![CharagundlaMagPLOT](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/baf63003-4b1b-4b3e-928b-b684e90bdd60)
-**Figure 3. Longitudinal magnetization for equation 3 in this section**. 
+![CharagundlaMagPLOT](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/cbc7095f-b292-4e5b-9850-ebe72cf52d19)
+**Figure 3. Longitudinal magnetization for equation 3 in this section**. The parameters and Matlab code are [here](https://github.com/yanitzatrosel/SIRS-MRI/blob/main/CharagundlaMagPLOT.m).
 
 
 ## Magnetization vector for steady-state sequence
