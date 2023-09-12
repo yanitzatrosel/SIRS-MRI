@@ -39,7 +39,7 @@ Test with the values: 50 to 400 ms.
 Try values between 10-100 Hz.
 
 
-## Magentization vector equations for $\vec{B}_{ext}=B_0\hat{z}$
+## Magnetization vector equations for $\vec{B}_{ext}=B_0\hat{z}$
 
 First, let's write the magnetization equation for the case when $\vec{B}_{ext}=B_0\hat{z}$, which is in a static field. Block equation:
 
