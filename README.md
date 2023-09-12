@@ -103,7 +103,7 @@ Replacing in Bloch equation and separating by component,
 2. $` \left( \frac{dM_y}{dt} \right)' = M_z \omega_1 - \Delta \omega M_{x'} - \frac{M_{y'}}{T_2} = 0 `$
 3. $` \left( \frac{dM_z}{dt} \right)' = - M_y \omega_1 + \frac{M_0 - M_z}{T_1} = 0 `$
 
-with $` \omega_1  \equiv \gamma B_{1x'} `$ and $` \Delta \omega  \equiv \gamma B_0 - \omega  \equiv \omega_0 - \omega `$.
+with $` \omega_1  = \gamma B_{1x'} `$ and $` \Delta \omega = \gamma B_0 - \omega = \omega_0 - \omega `$.
 
 ## How EPI works
 
