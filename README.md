@@ -89,7 +89,13 @@ We start with the Block equation:
 
 $`\frac{d\vec{M}}{dt} = \gamma \vec{M} \times \vec{B}_{ext} + \frac{1}{T_1}(M_0 - M_z)\hat{z} - \frac{1}{T_2} \vec{M}_{\perp}`$
 
-and we want to solve for $\vec{V}_{ext} = B_0 \hat{z} + B_1 \hat{x}'$
+and we want to solve for $\vec{V}_{ext} = B_0 \hat{z} + B_1 \hat{x}'$, which it is for the case when rf field is applied in addition to the static external field to tip the magnetization $\vec{M}$. The effective magnetic field will be the external magnetic field minus the 'reduced magnetic field' ($\omega/\gamma$), meaning
+
+$` \vec{B}_{eff} = \left(B_0 - \frac{\omega}{\gamma} \right)\hat{z} + B_1 \hat{x}' `$. 
+
+Then for the term $ \vec{M} \times \vec{B}_{ext} = \vec{M} \times \vec{B}_{eff} $, which is
+
+$` \vec{M} \times \vec{B}_{eff} = M_{y'}(B_0 - \frac{\omega}{\gamma}) `$
 
 ## How EPI works
 
