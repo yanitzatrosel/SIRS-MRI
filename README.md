@@ -93,7 +93,7 @@ and we want to solve for $\vec{V}_{ext} = B_0 \hat{z} + B_1 \hat{x}'$, which it 
 
 $` \vec{B}_{eff} = \left(B_0 - \frac{\omega}{\gamma} \right)\hat{z} + B_1 \hat{x}' `$. 
 
-Then for the term $ \vec{M} \times \vec{B}_{ext} = \vec{M} \times \vec{B}_{eff} $, which is
+Then for the term $`\vec{M} \times \vec{B}_{ext} = \vec{M} \times \vec{B}_{eff}`$, which is
 
 $` \vec{M} \times \vec{B}_{eff} = M_{y'}(B_0 - \frac{\omega}{\gamma}) `$
 
