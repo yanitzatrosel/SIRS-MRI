@@ -103,7 +103,13 @@ Replacing in Bloch equation and separating by component,
 2. $` \left( \frac{dM_y}{dt} \right)' = M_z \omega_1 - \Delta \omega M_{x'} - \frac{M_{y'}}{T_2} = 0 `$
 3. $` \left( \frac{dM_z}{dt} \right)' = - M_y \omega_1 + \frac{M_0 - M_z}{T_1} = 0 `$
 
-with $` \omega_1  = \gamma B_{1x'} `$ and $` \Delta \omega = \gamma B_0 - \omega = \omega_0 - \omega `$.
+with $` \omega_1  = \gamma B_{1x'} `$ and $` \Delta \omega = \gamma B_0 - \omega = \omega_0 - \omega `$. The equations are equal to zero since we are considering the case for long rf pulses. Meaning, that in the steady-state case $` \frac{d\vec{M}}{dt} = 0 `$. From equation 1 we have for $M_{x'}$,
+
+$` M_{x'} = \Delta \omega M_{y'} T_2  `$
+
+Replacing in equation 2 and solving the equation for $M_z$, we get
+
+
 
 ## How EPI works
 
