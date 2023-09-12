@@ -95,7 +95,13 @@ $` \vec{B}_{eff} = \left(B_0 - \frac{\omega}{\gamma} \right)\hat{z} + B_1 \hat{x
 
 Then for the term $`\vec{M} \times \vec{B}_{ext} = \vec{M} \times \vec{B}_{eff}`$, which is
 
-$` \vec{M} \times \vec{B}_{eff} = M_{y'}(B_0 - \frac{\omega}{\gamma}) `$
+$` \vec{M} \times \vec{B}_{eff} = M_{y'}(B_0 - \frac{\omega}{\gamma})\hat{x} - [M_{x'}(B_0 - \frac{\omega}{\gamma}) - M_zB_{1x'}]\hat{y} - M_{y'}B_{1x'}\hat{z} `$,
+
+Replacing in Bloch equation and separating by component,
+
+1. $` \left( \frac{dM_x}{dt} \right)' = \Delta \omega M_{y'} - \frac{M_{x'}}{T_2} = 0 `$
+2. $` \left( \frac{dM_y}{dt} \right)' = M_z \omega_1 - \Delta \omega M_{x'} - \frac{M_{y'}}{T_2} = 0 `$
+3. $` \left( \frac{dM_z}{dt} \right)' = - M_y \omega_1 + \frac{M_0 - M_z}{T_1} = 0 `$
 
 ## How EPI works
 
