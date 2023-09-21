@@ -83,6 +83,9 @@ However, this last expression is hardly true since it would requiere an homogene
 **Figure 3. Longitudinal magnetization for equation 3 in this section**. The parameters and Matlab code are [here](https://github.com/yanitzatrosel/SIRS-MRI/blob/main/CharagundlaMagPLOT.m).
 
 
+![MzChara-plot](https://github.com/yanitzatrosel/SIRS-MRI/assets/141436347/adf272dd-ba97-4d3a-8414-62bd80115b09)
+
+
 ## Magnetization vector for steady-state sequence
 
 We start with the Block equation:
